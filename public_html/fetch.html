@@ -1,0 +1,17 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <input id="inp", type="text">
+        <input id="bt" type="button" value="Нажми меня!">
+        <script>
+            bt.addEventListener("click", async () => {
+                let input = document.getElementById('inp').value;
+                let response = await fetch(input);
+                let result = await response.text();
+                document.getElementById('inp').value = result;
+            });
+        </script>
+    </body>
+</html>
