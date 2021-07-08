@@ -8,7 +8,7 @@
   
   "headers": {
     "/*": {
-      "X-Author": 190768,
+      "X-Author": yuragalaev2001,
       "Access-Control-Allow-Origin": "*"
     },
     "/login/": {
